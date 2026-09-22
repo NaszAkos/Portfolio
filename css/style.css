@@ -58,8 +58,6 @@ main{
         grid-template-columns: 1fr 1fr 1fr;
         
     }
-    
-    
     .kepek{
         width: 300px;
         height: 300px;
@@ -67,5 +65,33 @@ main{
     .projektKepek{
         width: 450px;
         height: 300px;
+    }
+    .projektReszek{
+        display: flex;
+        gap: 15%;
+        padding-bottom: 5%;
+    }
+    .projektSzoveg{
+        width: 30%;
+        padding-left: 10%;
+    }
+    footer{
+        background-color: #975102;
+        height: 70px;
+    }
+    footer p{
+        margin: 0%;
+    }
+    footer div{
+        padding-top: 1%;
+    }
+    .menupontok{
+        width: 17%;
+        height: 60%;
+        border-radius: 10%;
+    }
+    .menupontok:hover{
+        background-color: #7e4402;
+        
     }
 }
